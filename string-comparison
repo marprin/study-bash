@@ -1,0 +1,23 @@
+#!/bin/bash
+# =
+# !=
+# <
+# >
+# -n
+# -z
+# matches
+# does not match
+# __TO-DO__
+# is not null
+# is null
+
+S1='string'
+S2='String'
+if [ $1=$2 ];
+then
+	echo "S1('$S1') is not equal to S2('$S2')"
+fi
+if [ $S1=$S1 ];
+then
+	echo "S1('$S1') is equal to S1('$S1')"
+fi

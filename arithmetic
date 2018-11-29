@@ -1,0 +1,6 @@
+#!/bin/bash
+echo 1+1
+echo $((1+1))
+echo $[1+1]
+echo $[3/4] # will return integer, to get float use below
+echo 3/4|bc -l
